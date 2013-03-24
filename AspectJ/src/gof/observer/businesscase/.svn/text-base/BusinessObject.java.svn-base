@@ -1,0 +1,17 @@
+package gof.observer.businesscase;
+
+public class BusinessObject {
+	String battr = "";
+
+	public void bmethod() {
+		battr = "zzz";
+	}
+
+
+	public static void main(String[] args) {
+
+		BusinessObject b = new BusinessObject();
+		b.bmethod();
+		b.battr = "vvv";
+	}
+}

@@ -1,0 +1,7 @@
+package gof.observer.businesscase;
+
+public class AuditFacility {
+	public void log(String a) {
+		System.out.println(a);
+	}
+}

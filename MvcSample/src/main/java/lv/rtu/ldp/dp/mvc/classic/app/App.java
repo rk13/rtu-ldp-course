@@ -4,17 +4,17 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import lv.rtu.ldp.dp.mvc.classic.controller.DefaultController;
-import lv.rtu.ldp.dp.mvc.model.LoginModel;
+import lv.rtu.ldp.dp.mvc.model.UserModel;
 
 @SuppressWarnings("serial")
 public class App extends JFrame {
 
 	private DefaultController controller = null;
-	private LoginModel model = null;
+	private UserModel model = null;
 
 	public App() {
 		controller = new DefaultController();
-		model = new LoginModel();
+		model = new UserModel();
 
 		controller.addModel(model);
 

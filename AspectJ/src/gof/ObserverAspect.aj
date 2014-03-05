@@ -5,8 +5,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.aspectj.lang.Signature;
 
-public abstract aspect ObserverAspect pertarget(subject())  {
-
+public abstract aspect ObserverAspect
+{
 	public interface SubjectRole {
 		void notifyObservers(Object arg);
 		void attach(ObserverRole o);
@@ -33,11 +33,10 @@ public abstract aspect ObserverAspect pertarget(subject())  {
 		}
 	}
 
-	private pointcut subject() : initialization( SubjectRole+.new(..));
-	
 	protected abstract pointcut monitor();
 
-	after(SubjectRole s): monitor() && target(s)  {
+	after(SubjectRole s): monitor() && target(s)
+	{
 		s.notifyObservers(getFieldName(thisJoinPointStaticPart.getSignature()));
 	}
 	

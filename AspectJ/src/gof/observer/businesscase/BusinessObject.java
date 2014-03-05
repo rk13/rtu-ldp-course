@@ -3,8 +3,7 @@ package gof.observer.businesscase;
 
 public class BusinessObject extends Object
 {
-
-	String businessAttribute = "";
+	String businessAttribute;
 
 	public void businessMethod() 
 	{
@@ -17,5 +16,4 @@ public class BusinessObject extends Object
 		bo.businessMethod();
 		bo.businessAttribute = "B value";
 	}
-
 }

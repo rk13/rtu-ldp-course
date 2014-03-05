@@ -4,7 +4,7 @@ public class AuditFacility {
 
 	public void log(String auditMessage) 
 	{
-		System.out.println("*** AUDIT *** : " + auditMessage);
+		System.out.println("*** AUDIT: CHANGES IN [" + auditMessage + "]");
 	}
 
 }

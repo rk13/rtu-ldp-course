@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+
+<project name="jamda_vladkoto" default="all">
+
+	<property name="project.name" value="${ant.project.name}" />
+
+	<property name="xsl.dir" location="xsl" />
+	<property name="lib.dir" location="lib" />
+	<property name="project.lib.dir" location="${basedir}/lib" />
+	<property name="build.dir" value="build" />
+	<property name="classes" value="${build.dir}/classes" />
+	<property name="jar.dir" value="${build.dir}/jar" />
+	<property name="jar.file" value="${jar.dir}/project.jar" />
+	<property name="log4j.config" location="log4j.info.properties" />
+	<property name="gensrc.dir" value="gensrc" />
+	<property name="jamda.out" location="${gensrc.dir}/jamda.out" />
+	<property name="hbm.mapping" location="hbm-mapping" />
+	<property name="input.file" location="model/${project.name}.xml" />
+
+
+	<path id="cpath">
+		<fileset dir="${lib.dir}" includes="*.jar" />
+	</path>
+
+
+	<taskdef name="jamda" classname="com.ashridgetech.jamda.config.Jamda" classpathref="cpath">
+	</taskdef>
+
+	<target name="init">
+		<antcall target="clean">
+		</antcall>
+	</target>
+
+	<!-- Transformation definition -->
+	<target name="jamda" depends="init" description="Run the Jamda transformation">
+
+		<jamda inputFile="${input.file}" outputFile="${jamda.out}" stylesheet="${xsl.dir}/MDtoNSUML.xsl" log4jProperties="${log4j.config}">
+
+			<!-- DAO element transformer is applied on source model	-->
+			<elementTransformer stereotypes="coreBusinessObject" className="lv.rtu.vladkoto.dao.transform.DaoObjectCreator" />
+
+			<!-- HBM generator is applied on resulting PSM	-->
+			<transformer classname="lv.rtu.vladkoto.dao.transform.HbmModelTransformer"/>
+
+			<!-- PSM saving	-->
+			<transformer classname="lv.rtu.vladkoto.dao.transform.ModelSaveTransformer"/>
+
+			
+			<!-- Code generation -->
+			<codeGen stereotypes="ORMappedObject" dir="${gensrc.dir}" />
+		</jamda>
+
+	</target>
+
+	<target name="compile" depends="jamda,hbm" description="Compile the generated source">
+		<mkdir dir="${classes}" />
+		<javac srcdir="${gensrc.dir}" destdir="${classes}" includes="*/**" source="1.5">
+			<classpath>
+				<fileset dir="${lib.dir}" includes="*.jar" />
+				<fileset dir="${project.lib.dir}" includes="*.jar" />
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="jars" depends="compile" description="Make the compiled classes into a jar file">
+		<mkdir dir="${jar.dir}" />
+		<jar jarfile="${jar.file}" basedir="${classes}" />
+	</target>
+
+	<target name="hbm">
+		<path id="hbmlibs">
+			<fileset dir="${project.lib.dir}" includes="*.jar" />
+		</path>
+		<mkdir dir="${jar.dir}" />
+
+		<taskdef name="htools" classname="org.hibernate.tool.ant.HibernateToolTask" classpathref="hbmlibs" />
+
+		<jar destfile="${jar.dir}/mappings.jar">
+			<fileset dir="${hbm.mapping}">
+				<include name="**/*.*" />
+			</fileset>
+		</jar>
+
+		<htools destdir="${build.dir}">
+			<property key="ejb3" value="false" />
+			<property key="jdk5" value="true" />
+			<configuration configurationfile="hibernate.cfg.xml" />
+			<hbm2ddl drop="true" outputfilename="ddl.sql" />
+			<hbm2dao destdir="${gensrc.dir}" />
+		</htools>
+
+		<delete dir="${hbm.mapping}"  quiet="true" />
+	</target>
+
+
+	<target name="all" depends="jars" description="Run a full build" />
+
+	<target name="clean" description="Remove all generated source and build output">
+		<delete file="${input.file}.jamda" quiet="true" taskname="Delete transformed input file" />
+		<delete dir="${jar.dir}" quiet="true" taskname="Delete jar file directory" />
+		<delete dir="${build.dir}" quiet="true" taskname="Delete class file directory" />
+		<delete dir="${gensrc.dir}" quiet="true" taskname="Delete generated source directory" />
+	</target>
+
+</project>
+

@@ -1,0 +1,3416 @@
+<?xml version="1.0" encoding="UTF-8"?><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="1.1">
+<XMI.header>
+<XMI.documentation>
+<XMI.exporter>MagicDraw UML</XMI.exporter>
+<XMI.exporterVersion>7.0</XMI.exporterVersion>
+</XMI.documentation>
+<XMI.metamodel xmi.name="UML" xmi.version="1.4"/>
+</XMI.header>
+<XMI.content>
+<UML:Comment xmi.id="3a20142_1197726109687_582236_67" annotatedElement="eee_1045467100313_135436_1">
+<UML:ModelElement.name>Author:rk13.
+Created:12/15/07 3:39 PM.
+Title:.
+Comment:.
+</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_640575_178" annotatedElement="PBoocock_1027413958000_728068_69">
+<UML:ModelElement.name>Shows that this Attribute represents a property, which is read only if the Attribute is frozen, and read-write if the Attribute is changeable.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_515977_181" annotatedElement="PBoocock_1027414532140_733467_70">
+<UML:ModelElement.name>Shows which Actors can read the value of the property represented by this Attribute. Does not need to include Actors which appear as a value of the writableBy tag, as an Actor can always read a property it can set. If this tag is not present, ALL Actors can read the property.  If the tag is present, but there are no values for it, NO Actors can read this property.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_433719_184" annotatedElement="PBoocock_1027414532140_545882_71">
+<UML:ModelElement.name>Shows which Actors can set the value of the property represented by this Attribute. If this tag is not present, ALL Actors can set the property.  If the tag is present, but there are no values for it, NO Actors can set the property. </UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_604763_187" annotatedElement="PBoocock_1027420454078_518987_488">
+<UML:ModelElement.name>If true, the value of this property may change due to internal updates, but it cannot be changed by a setter method.  Should not be true at the same time as external.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_675680_190" annotatedElement="PBoocock_1027421751546_789801_508">
+<UML:ModelElement.name>Shows that this property is a unique identifying key by which the user may refer to the entity which contains it.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931474_794867_193" annotatedElement="PBoocock_1027675861703_33326_162">
+<UML:ModelElement.name>If true, the value of this property may change due to external updates, but it cannot be changed within this system.  Should not be true at the same time as readOnly.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_59588_178" annotatedElement="paulb_1024479480419_151055_61">
+<UML:ModelElement.name> Specifies a constraint that must be attached to an operation, and denotes that the conditions of the constraint must hold for the invocation of the operation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_25262_179" annotatedElement="paulb_1024479480419_207152_66">
+<UML:ModelElement.name>Create is a stereotyped call event denoting that the instance receiving that event has just been created. For state machines, it triggers the initial transition at the topmost level of the state machine (and is the only kind of trigger that may be applied to an initial transition).</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_330229_180" annotatedElement="paulb_1024479480419_243744_58">
+<UML:ModelElement.name> Local is a constraint applied to a link-end, specifying that the corresponding instance is visible because it is in a local scope relative to the link.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_3696_181" annotatedElement="paulb_1024479480419_252470_59">
+<UML:ModelElement.name>An entity is a passive class; that is, its objects do not initiate interactions on their own. An entity object may participate in many different use case realizations and usually outlives any single interaction.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_680853_182" annotatedElement="paulb_1024479480419_261491_74">
+<UML:ModelElement.name> Specifies that the target is a global value that is known to all elements AssociationEnd rather than an actual association.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543938_484947_183" annotatedElement="paulb_1024479480419_379760_63">
+<UML:ModelElement.name>message In the balking message case the sender abandons the message if the receiver is not ready.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543948_606868_184" annotatedElement="paulb_1024479480419_382985_76">
+<UML:ModelElement.name>Call is a stereotyped usage dependency whose source is an operation and whose target is an operation. The relationship may also be subsumed to the class containing an operation, with the meaning that there exists an operation in the class to which the dependency applies. A call dependency specifies that the source operation or an operation in the source class invokes the target operation or an operation in the target class. A call dependency may connect a source operation to any target operation that is within scope including, but not limited to, operations of the enclosing classifier and operations of other visible classifiers.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543948_40446_185" annotatedElement="paulb_1024479480419_481870_69">
+<UML:ModelElement.name>A stub is a stereotyped package representing a package that is incompletely transferred; specifically, a stub provides the public parts of the package, but nothing more.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543948_280224_186" annotatedElement="paulb_1024479480419_636110_77">
+<UML:ModelElement.name>Denotes a document containing source code or data.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_718371_187" annotatedElement="paulb_1024479480419_701324_68">
+<UML:ModelElement.name> Specifies a Flow relationship, source and target of which represent the same instance at different points in time, but each with potentially different values, state instance, and roles. A Become Dependency from A to B means that instance A becomes B with possibly new values, state instance, and roles at a different moment in time/space.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1024479480464_532083_158" annotatedElement="paulb_1024479480419_722026_60">
+<UML:ModelElement.name>Search for instances of this class</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_354545_188" annotatedElement="paulb_1024479480419_731927_67">
+<UML:ModelElement.name>Denotes a data base table.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_550889_189" annotatedElement="paulb_1024479480419_734252_73">
+<UML:ModelElement.name> Specifies that the designated feature creates an instance of the BehavioralFeature classifier to which the feature is attached. May be promoted to the Classifier containing the feature.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_138096_190" annotatedElement="paulb_1024479480419_829908_64">
+<UML:ModelElement.name>Specifies that the relationship represents a reference to the object that  AssociationEnd owns an operation or action rather than an actual association.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_335510_191" annotatedElement="paulb_1024479480419_911122_70">
+<UML:ModelElement.name>Specifies that the classifier is a metaclass whose instances are siblings
+marked by the same discriminator. For example, the metaclass
+TreeSpecies might be a power type for the subclasses of Tree that
+represent different species, such as AppleTree, BananaTree, and
+CherryTree.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_23697_192" annotatedElement="paulb_1024479480419_93342_75">
+<UML:ModelElement.name>Denotes a program that may be run on a node.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_622574_193" annotatedElement="paulb_1024479480420_143121_88">
+<UML:ModelElement.name>Specifies a desired feature, property, or behavior of an element as part Comment of a system.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_461710_194" annotatedElement="paulb_1024479480420_144119_115">
+<UML:ModelElement.name>(Name for the stereotyped class is Trace.) Specifies a trace relationship between model elements or sets of model elements that represent the same concept in different models. Traces are mainly used for tracking requirements and changes across models. Since model changes can occur in both directions, the directionality of the dependency can often be ignored. The mapping specifies the relationship between the two, but it is rarely computable and is usually informal.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_986482_195" annotatedElement="paulb_1024479480420_161292_99">
+<UML:ModelElement.name>Specifies a class that defines the core logic or control flow for one or more auxiliary classes that support it. Support classes may be defined explicitly using Auxiliary classes or implicitly by dependency relationships. Focus classes are typically used together with one or more Auxiliary classes, and are particularly useful for specifying the core business logic or control flow of components during design. See also: «auxiliary».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_835403_196" annotatedElement="paulb_1024479480420_161623_101">
+<UML:ModelElement.name>A model library is a stereotyped package that contains model elements that are intended to be reused by other packages. A model library differs from a profile in that a model library does not extend the metamodel using stereotypes and tagged definitions. A model library is analogous to a class library in some programming languages.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_574237_197" annotatedElement="paulb_1024479480420_162445_123">
+<UML:ModelElement.name>This dependency means that the supplier package is being used as a model library associated with a profile. The client is a package that is stereotyped as a profile and the supplier is a non-profile package that contains shared model elements, such as classes and data types.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_586441_198" annotatedElement="paulb_1024479480420_185601_95">
+<UML:ModelElement.name>Specifies a class that supports another more central or fundamental
+class, typically by implementing secondary logic or control flow. The
+class that the auxiliary supports may be defined explicitly using a
+Focus class or implicitly by a dependency relationship. Auxiliary
+classes are typically used together with Focus classes, and are
+particularly useful for specifying the secondary business logic or
+control flow of components during design. See also: «focus».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_233195_199" annotatedElement="paulb_1024479480420_203377_111">
+<UML:ModelElement.name> Association is a constraint applied to a link-end, specifying that the corresponding instance is visible via association.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_659493_200" annotatedElement="paulb_1024479480420_209604_85">
+<UML:ModelElement.name>Specifies a classifier that has no instances, but rather denotes a named collection of non-member attributes and operations, all of which are class-scoped.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_545865_201" annotatedElement="paulb_1024479480420_210784_81">
+<UML:ModelElement.name>Specifies a constraint that must be attached to a set of classifiers or relationships. It indicates that the conditions of the constraint must hold over time (for the time period of concern in the particular  containing element) for the classifiers or relationships and their instances.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543958_434383_202" annotatedElement="paulb_1024479480420_227352_113">
+<UML:ModelElement.name>Denotes a physical file in the context of the system developed.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_121414_203" annotatedElement="paulb_1024479480420_2303_98">
+<UML:ModelElement.name>Specifies a classifier that represents a heavy-weight flow of control.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_515505_204" annotatedElement="paulb_1024479480420_265325_122">
+<UML:ModelElement.name>A boundary is a class that lies on the periphery of a system, but within it. It interacts with actors outside the system as well as with entity, control, and other boundary classes within the system.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_992752_205" annotatedElement="paulb_1024479480420_286259_86">
+<UML:ModelElement.name>This dependency is used to indicate which profiles are applicable to a package. Typically, the client is an ordinary package or a model (but could be any other kind of package), while the supplier is a profile package. This means that the profile applies transitively to the model elements contained in the client package, including the client package itself.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_103194_206" annotatedElement="paulb_1024479480420_322236_103">
+<UML:ModelElement.name>Destroy is a stereotyped call event denoting that the instance receiving the event is being destroyed.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1041791942525_867606_168" annotatedElement="paulb_1041791937908_613972_165">
+<UML:ModelElement.name>The attributes for the properties which can be used as a short description for this object.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_879183_207" annotatedElement="paulb_1024479480420_346666_125">
+<UML:ModelElement.name>Classifier Specifies a classifier that represents a flow of control.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_810174_208" annotatedElement="paulb_1024479480420_395658_114">
+<UML:ModelElement.name>A time-out message the sender sends for a given period of time while waiting for acknowledgment by recipient. The sender is freed up if the acknowledgment does not occur within the duration specified in the description.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_35347_209" annotatedElement="paulb_1024479480420_412244_107">
+<UML:ModelElement.name>(Name for the stereotyped class is Derivation.) Specifies a derivation relationship among model elements that are usually, but not necessarily, of the same type. A derived dependency specifies that the client may be computed from the supplier. The mapping specifies the computation. The client may be implemented for design reasons, such as efficiency, even though it is logically redundant.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_166151_210" annotatedElement="paulb_1024479480420_413532_105">
+<UML:ModelElement.name>A use case model specifies the services a system provides to its users; that is, the different ways of using the system, and whose top-level package is a use case system.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_8363_211" annotatedElement="paulb_1024479480420_422396_102">
+<UML:ModelElement.name>  Specifies that the relationship represents a local variable within a AssociationEnd procedure rather than an actual association.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_211271_212" annotatedElement="paulb_1024479480420_432282_83">
+<UML:ModelElement.name>A time-out message the sender sends for a given period of time while waiting for acknowledgment by recipient. The sender is freed up if the acknowledgment does not occur within the duration specified in the description.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_660676_213" annotatedElement="paulb_1024479480420_436878_121">
+<UML:ModelElement.name>Create is a stereotyped usage dependency denoting that the client classifier creates instances of the supplier classifier.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_378645_214" annotatedElement="paulb_1024479480420_490219_79">
+<UML:ModelElement.name>Specifies that the designated feature destroys an instance of the BehavioralFeature classifier to which the feature is attached. May be promoted to the  classifier containing the feature.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_533097_215" annotatedElement="paulb_1024479480420_494585_106">
+<UML:ModelElement.name>A stereotyped usage dependency among classifiers indicating that operations on the client create instances of the supplier.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_749965_216" annotatedElement="paulb_1024479480420_508232_84">
+<UML:ModelElement.name>«send» Usage Send is a stereotyped usage dependency whose source is an operation and whose target is a signal, specifying that the source sends the target signal.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_971264_217" annotatedElement="paulb_1024479480420_54371_82">
+<UML:ModelElement.name>Specifies a contract or an obligation of an element in its relationship Comment to other elements.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_6845_218" annotatedElement="paulb_1024479480420_587654_87">
+<UML:ModelElement.name>A metamodel is a stereotyped model denoting that the model is an abstraction of another model, i.e., it is a model of a model. Hence, if M2 is a model of the model M1, then M2 is a metamodel of M1. It follows then that classes in M1 are instances of metaclasses in M2. The stereotype can be recursively applied, as in the case of a 4-layer metamodel architecture.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_322354_219" annotatedElement="paulb_1024479480420_604578_108">
+<UML:ModelElement.name>Denotes a generic file that is not a «source» file or «executable». Subclass of «file».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_342553_220" annotatedElement="paulb_1024479480420_647357_116">
+<UML:ModelElement.name>Import is a stereotyped permission dependency between two namespaces, denoting that the public contents of the target package are added to the namespace of the source package.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543968_33978_221" annotatedElement="paulb_1024479480420_694245_97">
+<UML:ModelElement.name>Specifies that the relationship represents a procedure parameter rather than AssociationEnd an actual association.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1024479480514_823971_220" annotatedElement="paulb_1024479480420_706890_100">
+<UML:ModelElement.name>A class to handle the execution of a method in a class with the sessionFacade stereotype</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_921012_222" annotatedElement="paulb_1024479480420_756103_91">
+<UML:ModelElement.name>A control is a class whose objects manage interactions between collections of objects.
+A control class usually has behavior that is specific for one use case, and a control object usually does not outlive the use case realizations in which it participates.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_213270_223" annotatedElement="paulb_1024479480420_797983_89">
+<UML:ModelElement.name>Denotes a document.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_427268_224" annotatedElement="paulb_1024479480420_8101_90">
+<UML:ModelElement.name>Access is a stereotyped permission dependency between two namespaces, denoting that the public contents of the target namespace are accessible to the namespace of the source package.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_393867_225" annotatedElement="paulb_1024479480420_823251_92">
+<UML:ModelElement.name>Specifies that the instances of the classifier are classes.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_928965_226" annotatedElement="paulb_1024479480420_82883_126">
+<UML:ModelElement.name>A systemModel is a stereotyped model that contains a collection of models of the same physical system. A systemModel also contains all relationships and constraints between model elements contained in different models.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_127817_227" annotatedElement="paulb_1024479480420_84943_124">
+<UML:ModelElement.name>Denotes a source file that can be compiled into an executable file.Subclass of «file».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_822988_228" annotatedElement="paulb_1024479480420_85901_110">
+<UML:ModelElement.name>TopLevel is a stereotype of package denoting the top-most package in a containment hierarchy. The topLevel stereotype defines the outer limit for looking up names, as namespaces  see  outwards. A topLevel subsystem represents the top of the subsystem containment hierarchy, i.e., it is the model element that represents the boundary of the entire physical system being modeled.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_987055_229" annotatedElement="paulb_1024479480420_865935_93">
+<UML:ModelElement.name> Parameter is a constraint applied to a link-end, specifying that the corresponding instance is visible because it is in a parameter scope relative to the link.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_564441_230" annotatedElement="paulb_1024479480420_8718_117">
+<UML:ModelElement.name>Specifies a domain of objects together with the operations applicable
+to the objects, without defining the physical implementation of those
+objects. A type may not contain any methods, maintain its own thread
+of control, or be nested. However, it may have attributes and
+associations. The associations of a Type are defined solely for the
+purpose of specifying the behavior of the type's operations and do not
+represent the implementation of state data.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_497404_231" annotatedElement="paulb_1024479480420_879010_119">
+<UML:ModelElement.name>(Name for the stereotyped class is Realization.) Specifies a realization relationship between a specification model element or elements (the supplier) and a model element or elements that implement it (the client). The implementation model element is required to support all of the operations or received signals that the specification model element declares. The implementation model element must make or inherit its own declarations of the operations and signal receptions. The mapping specifies the relationship between the two. The mapping may or may not be computable. Realization can be used to model stepwise refinement, optimizations, transformations, templates, model synthesis, framework composition, etc.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543978_234091_232" annotatedElement="paulb_1024479480420_897629_80">
+<UML:ModelElement.name>Specifies a constraint that must be attached to a state vertex in a state machine that has a classifier for a context. The stereotype indicates that the constraint holds for instances of the classifier when an instance is in that state.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083543988_11909_233" annotatedElement="paulb_1024479480420_929970_109">
+<UML:ModelElement.name>message In the balking message case the sender abandons the message if the receiver is not ready.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_743645_243" annotatedElement="paulb_1024479480420_961955_118">
+<UML:ModelElement.name>Specifies a Flow relationship, the source and target of which are different instances, but each with the same values, state instance, and roles (but a distinct identity). A Copy Dependency from A to B means that B is an exact copy of A. Future changes in A are not necessarily reflected in B.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_977846_244" annotatedElement="paulb_1024479480420_970831_96">
+<UML:ModelElement.name>Specifies the implementation of a class in some programming Class language in which an instance may not have more than one class. This is in contrast to a general UML Class, for which an instance may have multiple classes at one time and may gain or lose classes over time, and an object (a child of instance) may dynamically have  multiple classes.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_580155_245" annotatedElement="paulb_1024479480421_106741_128">
+<UML:ModelElement.name>A facade is a stereotyped package containing only references to model elements owned by another package. It is used to provide a  public view  of some of the contents of a package. A facade does not contain any model elements of its own.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_946171_246" annotatedElement="paulb_1024479480421_24372_143">
+<UML:ModelElement.name>Specifies that the child inherits the implementation of the parent (its attributes, operations and methods) but does not make public the supplier s interfaces nor guarantee to support them, thereby violating substitutability. This is private inheritance and is usually used only for programming implementation purposes.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_898285_247" annotatedElement="paulb_1024479480421_314571_140">
+<UML:ModelElement.name>A framework is a stereotyped package consisting mainly of patterns, where patterns are defined as template collaborations.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_309945_248" annotatedElement="paulb_1024479480421_315736_142">
+<UML:ModelElement.name> The «implicit» stereotype is applied to an association, specifying that the association is not manifest, but rather is only conceptual.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_495186_249" annotatedElement="paulb_1024479480421_370995_137">
+<UML:ModelElement.name> Friend is a stereotyped permission dependency whose source is a model element, such as an operation, class, or package, and whose target is a model element in a different package, such as an operation, class or package. A friend relationship grants the source access to the target regardless of the declared visibility. It extends the visibility of the supplier so that the client can see into the supplier.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_782038_250" annotatedElement="paulb_1024479480421_411721_132">
+<UML:ModelElement.name>Denotes a program file that can be executed on a computer system.Subclass of «file».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_560718_251" annotatedElement="paulb_1024479480421_429054_135">
+<UML:ModelElement.name> Specifies a real association (default and redundant, but may be included AssociationEnd for emphasis).</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_526579_252" annotatedElement="paulb_1024479480421_562111_131">
+<UML:ModelElement.name> Global is a constraint applied to a link-end, specifying that the corresponding instance is visible because it is in a global scope relative to the link.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544088_654942_253" annotatedElement="paulb_1024479480421_598298_138">
+<UML:ModelElement.name>Denotes a static or dynamic library file. Subclass of «file».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_562502_254" annotatedElement="paulb_1024479480421_635361_129">
+<UML:ModelElement.name> Self is a constraint applied to a link-end, specifying that the corresponding instance is visible because it is the dispatcher of the request.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_969536_255" annotatedElement="paulb_1024479480421_638417_139">
+<UML:ModelElement.name>Specifies a constraint that must be attached to an operation, and denotes that the conditions of the constraint must hold after the invocation of the operation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_551082_256" annotatedElement="paulb_1024479480421_645733_130">
+<UML:ModelElement.name>Denotes a database table.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_389741_257" annotatedElement="paulb_1024479480421_70678_136">
+<UML:ModelElement.name>Denotes a static or dynamic library.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_198548_258" annotatedElement="paulb_1024479480421_83067_134">
+<UML:ModelElement.name>Signalflow is a stereotype of ObjectFlowState with a Signal as its type.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_716307_259" annotatedElement="paulb_1024479480421_846630_127">
+<UML:ModelElement.name>A profile is a stereotyped package that contains model elements that have been customized for a specific domain or purpose using extension mechanisms, such as stereotypes, tagged definitions, and constraints. A profile may also specify model libraries on which it depends and the metamodel subset that it extends. (The latter is specified via an applicableSubset tag definition.)</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931575_925510_267" annotatedElement="paulb_1024479480421_974404_141">
+<UML:ModelElement.name>An interface to the system for one Actor.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931575_48259_271" annotatedElement="paulb_1040373931575_380492_268">
+<UML:ModelElement.name>The Actor who uses this class as their interface to the system.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931575_813896_274" annotatedElement="paulb_1026833332078_118141_71">
+<UML:ModelElement.name>Usage applies only to transitions leading into or out of an object flow state. It has a value of uses or modifies. A value of uses indicates that the action of the state at the other end of the transition from the object flow state uses but does not modify the object represented by the object flow state. A value of modifies indicates that the action of the state at the other end of the transition from the object flow state modifies and may use the object represented by the object flow state.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_220385_277" annotatedElement="paulb_1026833332078_269069_112">
+<UML:ModelElement.name>Persistence denotes the permanence of the state of the classifier, marking it as transitory (its state is destroyed when the instance is destroyed) or persistent (its state is not destroyed when the instance is destroyed).</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_84668_280" annotatedElement="paulb_1026833332078_272449_82">
+<UML:ModelElement.name>This tag definition, which only applies to profile packages, lists the metaelements that are used by the associated profile. The value associated with this tag definition is a set of strings, where each string represents the name of an applicable metaelement. Note that the use of applicable subset does not necessarily exclude the use of any metaelements, but clearly identifies which ones are referenced from the associated profile. Further note that the tag definition applies only to the immediately associated profile. If a profile combines several other profiles using import or generalizations, the applicable subset only applies to the immediately associated profile. The absence of an applicable subset tag definition means that the whole UML metamodel is applicable.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_904472_286" annotatedElement="paulb_1026833332078_484763_28">
+<UML:ModelElement.name>Persistence denotes the permanence of the state of the instance, marking it as transitory (its state is destroyed when the instance is destroyed) or persistent (its state is not destroyed when the instance is destroyed).</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_595437_289" annotatedElement="paulb_1026833332078_63878_60">
+<UML:ModelElement.name>A true value indicates that the model element can be completely derived from other model elements and is therefore logically redundant. In an analysis model, the element may be included to define a useful name or concept. In a design model, the usual intent is that the element should exist in the implementation to avoid the need for recomputation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_971438_292" annotatedElement="paulb_1027417805406_322767_396">
+<UML:ModelElement.name>Shows which Actors can access this Operation.  If the tag is not present, ALL Actors can access the Operation.  If the tag is present but has no values, NO Actors can access the Operation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_803511_295" annotatedElement="paulb_1027439587953_437291_279">
+<UML:ModelElement.name>Shows which Actors can read the value of the property represented by this AssociationEnd. Does not need to include Actors which appear as a value of the writableBy tag, as an Actor can always read a property it can set. If this tag is not present, ALL Actors can read the property.  If the tag is present, but there are no values for it, NO Actors can read this property.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_884923_298" annotatedElement="paulb_1027439730703_552624_281">
+<UML:ModelElement.name>Shows which Actors can set the value of the property represented by this AssociationEnd. If this tag is not present, ALL Actors can set the property.  If the tag is present, but there are no values for it, NO Actors can read this property.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_470755_301" annotatedElement="paulb_1027599961734_376290_602">
+<UML:ModelElement.name>A reference to the requirement which made this element of the model necessary.  Usually a paragraph number from the requirements specification.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_124990_304" annotatedElement="paulb_1027677775703_598471_202">
+<UML:ModelElement.name>Refers to another model element which is relevant to this one.  Could be translated into an @see Javadoc tag.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_443413_307" annotatedElement="paulb_1027677775703_994675_203">
+<UML:ModelElement.name>Defines an exception thrown by the Operation.  Use a separate tagged value for each exception thrown.  The documentation with the tag could be translated into a Javadoc @throws tag.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_325232_310" annotatedElement="paulb_1029327925937_624063_321">
+<UML:ModelElement.name>Experimental place for operation code in the model</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1051083544098_790909_260" annotatedElement="paulb_1040372491223_329810_85">
+<UML:ModelElement.name>Specifies the implementation of a class in some programming
+language (for example, C++, Smalltalk, Java) in which an instance
+may not have more than one class. This is in contrast to Class, for
+which an instance may have multiple classes at one time and may
+gain or lose classes over time, and an object (a child of instance) may
+dynamically have multiple classes.
+An Implementation class is said to realize a Type if it provides all of
+the operations defined for the Type with the same behavior as
+specified for the Type’s operations. An Implementation Class may
+realize a number of different Types. Note that the physical attributes
+and associations of the Implementation class do not have to be the
+same as those of any Type it realizes and that the Implementation
+Class may provide methods for its operations in terms of its physical
+attributes and associations. See also: «type».</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_926527_312" annotatedElement="paulb_1040373931474_1821_175">
+<UML:ModelElement.name>A class which is used to carry several related data items together.  It is used as an Operation input parameter to avoid havinf a large number of individual parameters, and as a return parameter so that an Operation can return multiple different values.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931585_843702_320" annotatedElement="paulb_1040373931474_514826_165">
+<UML:ModelElement.name>An interface for a core business object.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_932280_324" annotatedElement="paulb_1040373931585_891299_321">
+<UML:ModelElement.name>Shows which Actors can read the properties of this class or interface, unless overridden for an individual property. Does not need to include Actors which appear as a value of the writableBy tag, as an Actor can always read properties it can set. If this tag is not present, ALL Actors can read the properties.  If the tag is present, but there are no values for it, NO Actors can read the properties.  It also defines the default access of the Actors to query Operations on this class.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_312470_328" annotatedElement="paulb_1040373931595_317517_325">
+<UML:ModelElement.name>Shows which Actors can set the value of the properties of this Class or Interface, unless overridden for an individual property. If this tag is not present, ALL Actors can set the properties by default.  If the tag is present, but there are no values for it, NO Actors can set the properties by default.  It also defines the default access of the Actors to non-query Operations on this class.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_231139_332" annotatedElement="paulb_1040373931595_103834_329">
+<UML:ModelElement.name>If true, the default for the properties of this Class or Interface is that they may change due to external updates, but they cannot be changed within this system.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_225702_336" annotatedElement="paulb_1040373931595_891584_333">
+<UML:ModelElement.name>If true, the default for the properties of this Class or Interface is that they may change due to internal updates, but they cannot be changed by setter methods.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_425670_340" annotatedElement="paulb_1040373931595_876005_337">
+<UML:ModelElement.name>The Actors who can create this entity directly.  This does not include creation by other system functions.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_121632_344" annotatedElement="paulb_1040373931595_875287_341">
+<UML:ModelElement.name>The Actors who can delete this entity directly.  This may often be empty, as many entities are only deleted by system functions or archiving.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_948444_347" annotatedElement="paulb_1040373931474_597607_167">
+<UML:ModelElement.name>Semantics is the specification of the meaning of the operation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1040373931595_757723_349" annotatedElement="paulb_1040373931474_752780_171">
+<UML:ModelElement.name>Shows that this ModelClass is an exception type.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1041262035143_202425_161" annotatedElement="paulb_1041246112215_754511_84">
+<UML:ModelElement.name>A snapshot of the attributes of a core business object.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1041262035143_181685_162" annotatedElement="paulb_1041262032890_622348_86">
+<UML:ModelElement.name>An object which holds updates to another object.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1041262035143_147703_163" annotatedElement="paulb_1041262032890_710953_85">
+<UML:ModelElement.name>An object which acts as a brief description of an entity object.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1041791942605_552630_169" annotatedElement="paulb_1041581877737_92198_164">
+<UML:ModelElement.name>A parameter whose value is used to set a property.  Would be used most commonly in a constructor.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1042493446586_643589_176" annotatedElement="paulb_1042493441819_334206_170">
+<UML:ModelElement.name>The source from which this ModelElement was generated.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1042829118245_928096_172" annotatedElement="paulb_1042829115872_113643_168">
+<UML:ModelElement.name>The body of the procedure for this Operation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1042829118245_447001_175" annotatedElement="paulb_1042829115872_856440_169">
+<UML:ModelElement.name>The language of the procedure for this Operation. (see body Tag)</UML:ModelElement.name>
+</UML:Comment>
+<UML:Comment xmi.id="paulb_1046718145077_907434_202" annotatedElement="paulb_1046718136705_473667_193">
+<UML:ModelElement.name>The Attribute linked to this Operation, usually for its implementation.</UML:ModelElement.name>
+</UML:Comment>
+<UML:Model xmi.id="eee_1045467100313_135436_1">
+<UML:ModelElement.name>Data</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="3a20142_1197726109687_582236_67"/>
+</UML:ModelElement.comment>
+<UML:Namespace.ownedElement>
+<UML:Package href="UML_Standard_Profile.xml|magicdraw_uml_standard_profile_v_0001"/>
+<UML:Stereotype xmi.id="PBoocock_1027413958000_728068_69">
+<UML:ModelElement.name>property</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.icon>C:\Tools\MagicDraw UML 5.5\Stereotypes\Property.jpg</UML:Stereotype.icon>
+<UML:Stereotype.baseClass>Attribute</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_640575_178"/>
+</UML:ModelElement.comment>
+<UML:Stereotype.definedTag>
+<UML:TagDefinition xmi.id="PBoocock_1027414532140_733467_70">
+<UML:ModelElement.name>readableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931474_866820_179">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931474_617747_180">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_515977_181"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="PBoocock_1027414532140_545882_71">
+<UML:ModelElement.name>writableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931474_910958_182">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931474_461532_183">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_433719_184"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="PBoocock_1027420454078_518987_488">
+<UML:ModelElement.name>readOnly</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931474_408652_185">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931474_749562_186">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_604763_187"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="PBoocock_1027421751546_789801_508">
+<UML:ModelElement.name>isKey</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931474_36024_188">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931474_166752_189">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_675680_190"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="PBoocock_1027675861703_33326_162">
+<UML:ModelElement.name>external</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931474_966426_191">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931474_839417_192">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931474_794867_193"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+</UML:Stereotype.definedTag>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_115051_72">
+<UML:ModelElement.name>finder</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_151055_61">
+<UML:ModelElement.name>precondition</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Constraint</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_59588_178"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_207152_66">
+<UML:ModelElement.name>create</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>CallEvent</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_25262_179"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_243744_58">
+<UML:ModelElement.name>local</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>LinkEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_330229_180"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_252470_59">
+<UML:ModelElement.name>entity</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_3696_181"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_261491_74">
+<UML:ModelElement.name>global</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>AssociationEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_680853_182"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_379760_63">
+<UML:ModelElement.name>balking</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Stimulus</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543938_484947_183"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_382985_76">
+<UML:ModelElement.name>call</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Usage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543948_606868_184"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_481870_69">
+<UML:ModelElement.name>stub</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543948_40446_185"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_636110_77">
+<UML:ModelElement.name>file</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Component</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543948_280224_186"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_675407_71">
+<UML:ModelElement.name>loginFinder</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_701324_68">
+<UML:ModelElement.name>become</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Flow</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_718371_187"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_722026_60">
+<UML:ModelElement.name>search</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1024479480464_532083_158"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_731927_67">
+<UML:ModelElement.name>table</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Component</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_354545_188"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_734252_73">
+<UML:ModelElement.name>create</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>BehavioralFeature</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_550889_189"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_803003_62">
+<UML:ModelElement.name>customFinder</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_829908_64">
+<UML:ModelElement.name>self</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>AssociationEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_138096_190"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_911122_70">
+<UML:ModelElement.name>powertype</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_335510_191"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480419_93342_75">
+<UML:ModelElement.name>executable</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Component</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_23697_192"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Package xmi.id="paulb_1024479480419_963559_65">
+<UML:ModelElement.name>Data types</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:DataType xmi.id="paulb_1024479480481_275538_165">
+<UML:ModelElement.name>void</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480481_299141_169">
+<UML:ModelElement.name>boolean</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480481_431860_167">
+<UML:ModelElement.name>float</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480481_574500_166">
+<UML:ModelElement.name>byte</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480482_150524_171">
+<UML:ModelElement.name>int</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480482_327352_174">
+<UML:ModelElement.name>long</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480482_489056_173">
+<UML:ModelElement.name>double</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480482_928273_170">
+<UML:ModelElement.name>short</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+<UML:DataType xmi.id="paulb_1024479480482_993498_172">
+<UML:ModelElement.name>char</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:DataType>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Stereotype xmi.id="paulb_1024479480420_143121_88">
+<UML:ModelElement.name>requirement</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Comment</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_622574_193"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_144119_115">
+<UML:ModelElement.name>trace</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Abstraction</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_461710_194"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_161292_99">
+<UML:ModelElement.name>focus</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_986482_195"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_161623_101">
+<UML:ModelElement.name>modelLibrary</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_835403_196"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_162445_123">
+<UML:ModelElement.name>modelLibrary</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Dependency</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_574237_197"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_185601_95">
+<UML:ModelElement.name>auxiliary</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_586441_198"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_203377_111">
+<UML:ModelElement.name>association</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>LinkEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_233195_199"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_209604_85">
+<UML:ModelElement.name>utility</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_659493_200"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_210784_81">
+<UML:ModelElement.name>invariant</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Constraint</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_545865_201"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_227352_113">
+<UML:ModelElement.name>file</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543958_434383_202"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_2303_98">
+<UML:ModelElement.name>process</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_121414_203"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_265325_122">
+<UML:ModelElement.name>boundary</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_515505_204"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_286259_86">
+<UML:ModelElement.name>appliedProfile</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Dependency</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_992752_205"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_322236_103">
+<UML:ModelElement.name>destroy</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>CallEvent</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_103194_206"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_328097_112">
+<UML:ModelElement.name>coreBusinessObject</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+<UML:Stereotype.definedTag>
+<UML:TagDefinition xmi.id="paulb_1041791937908_613972_165">
+<UML:ModelElement.name>descProperties</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Attribute</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1041791942525_413662_166">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1041791942525_266744_167">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1041791942525_867606_168"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+</UML:Stereotype.definedTag>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_346666_125">
+<UML:ModelElement.name>thread</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_879183_207"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_395658_114">
+<UML:ModelElement.name>time-out</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Stimulus</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_810174_208"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_412244_107">
+<UML:ModelElement.name>derive</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Abstraction</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_35347_209"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_413532_105">
+<UML:ModelElement.name>useCaseModel</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Model</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_166151_210"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_422396_102">
+<UML:ModelElement.name>local</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>AssociationEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_8363_211"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_432282_83">
+<UML:ModelElement.name>time-out</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Message</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_211271_212"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_436878_121">
+<UML:ModelElement.name>create</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Usage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_660676_213"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_490219_79">
+<UML:ModelElement.name>destroy</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>BehavioralFeature</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_378645_214"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_494585_106">
+<UML:ModelElement.name>instantiate</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Usage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_533097_215"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_508232_84">
+<UML:ModelElement.name>send</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Usage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_749965_216"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_54371_82">
+<UML:ModelElement.name>responsibility</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Comment</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_971264_217"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_587654_87">
+<UML:ModelElement.name>metamodel</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Model</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_6845_218"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_604578_108">
+<UML:ModelElement.name>document</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_322354_219"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_647357_116">
+<UML:ModelElement.name>import</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Permission</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_342553_220"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_652961_104">
+<UML:ModelElement.name>findPrefix</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Parameter</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_694245_97">
+<UML:ModelElement.name>parameter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>AssociationEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543968_33978_221"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_706890_100">
+<UML:ModelElement.name>methodHandler</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1024479480514_823971_220"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_756103_91">
+<UML:ModelElement.name>control</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_921012_222"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_797983_89">
+<UML:ModelElement.name>document</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Component</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_213270_223"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_8101_90">
+<UML:ModelElement.name>access</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Permission</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_427268_224"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_823251_92">
+<UML:ModelElement.name>metaclass</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_393867_225"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_82883_126">
+<UML:ModelElement.name>systemModel</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Model</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_928965_226"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_84943_124">
+<UML:ModelElement.name>source</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_127817_227"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_85901_110">
+<UML:ModelElement.name>topLevel</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_822988_228"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_865935_93">
+<UML:ModelElement.name>parameter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>LinkEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_987055_229"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_8718_117">
+<UML:ModelElement.name>type</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_564441_230"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_879010_119">
+<UML:ModelElement.name>realize</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Abstraction</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_497404_231"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_897629_80">
+<UML:ModelElement.name>stateInvariant</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Constraint</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543978_234091_232"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_929970_109">
+<UML:ModelElement.name>balking</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Message</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083543988_11909_233"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_933020_120">
+<UML:ModelElement.name>refine</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Abstraction</UML:Stereotype.baseClass>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_961955_118">
+<UML:ModelElement.name>copy</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Flow</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_743645_243"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480420_970831_96">
+<UML:ModelElement.name>implementationClass</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_977846_244"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_106741_128">
+<UML:ModelElement.name>facade</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_580155_245"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_24372_143">
+<UML:ModelElement.name>implementation</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Generalization</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_946171_246"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_314571_140">
+<UML:ModelElement.name>framework</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_898285_247"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_315736_142">
+<UML:ModelElement.name>implicit</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Association</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_309945_248"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_370995_137">
+<UML:ModelElement.name>friend</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Permission</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_495186_249"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_411721_132">
+<UML:ModelElement.name>executable</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_782038_250"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_429054_135">
+<UML:ModelElement.name>association</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>AssociationEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_560718_251"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_562111_131">
+<UML:ModelElement.name>global</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>LinkEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_526579_252"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_598298_138">
+<UML:ModelElement.name>library</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544088_654942_253"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_635361_129">
+<UML:ModelElement.name>self</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>LinkEnd</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_562502_254"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_638417_139">
+<UML:ModelElement.name>postcondition</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Constraint</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_969536_255"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_645733_130">
+<UML:ModelElement.name>table</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Artifact</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_551082_256"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_70678_136">
+<UML:ModelElement.name>library</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Component</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_389741_257"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Package xmi.id="eee_1045467100313_365297_7">
+<UML:ModelElement.name>Component View</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:Package>
+<UML:Stereotype xmi.id="paulb_1024479480421_83067_134">
+<UML:ModelElement.name>signalflow</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ObjectFlowState</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_198548_258"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_846630_127">
+<UML:ModelElement.name>profile</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_716307_259"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1024479480421_974404_141">
+<UML:ModelElement.name>sessionFacade</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931575_925510_267"/>
+</UML:ModelElement.comment>
+<UML:Stereotype.definedTag>
+<UML:TagDefinition xmi.id="paulb_1040373931575_380492_268">
+<UML:ModelElement.name>actor</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931575_838827_269">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931575_779689_270">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931575_48259_271"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1024479480421_974404_141"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+</UML:Stereotype.definedTag>
+</UML:Stereotype>
+<UML:Package xmi.id="paulb_1024479480481_644976_168">
+<UML:ModelElement.name>java</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Package xmi.id="paulb_1024479480488_190969_176">
+<UML:ModelElement.name>util</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Class xmi.id="paulb_1024479480493_856806_177">
+<UML:ModelElement.name>Date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+</UML:Class>
+<UML:Interface xmi.id="paulb_1042791542339_840169_166">
+<UML:ModelElement.name>List</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:Interface>
+<UML:Interface xmi.id="paulb_1042791557481_688107_167">
+<UML:ModelElement.name>Collection</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:Interface>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Package xmi.id="paulb_1024479480488_355726_175">
+<UML:ModelElement.name>lang</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Class xmi.id="paulb_1024479480499_383995_179">
+<UML:ModelElement.name>Double</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.comment/>
+</UML:Class>
+<UML:Class xmi.id="paulb_1024479480499_530543_178">
+<UML:ModelElement.name>String</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+</UML:Class>
+<UML:Class xmi.id="paulb_1042791048529_639545_84">
+<UML:ModelElement.name>Integer</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.comment/>
+</UML:Class>
+<UML:Class xmi.id="paulb_1042791085933_324219_85">
+<UML:ModelElement.name>Boolean</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.comment/>
+</UML:Class>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Package xmi.id="paulb_1042791269106_261557_163">
+<UML:ModelElement.name>io</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Interface xmi.id="paulb_1042791516062_791145_165">
+<UML:ModelElement.name>Serializable</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:Interface>
+</UML:Namespace.ownedElement>
+</UML:Package>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:TagDefinition xmi.id="paulb_1025555602627_10808_91">
+<UML:ModelElement.name>actor</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1025555856428_214857_93">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1025555856429_671923_94">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1026833332078_118141_71">
+<UML:ModelElement.name> usage</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931575_586697_272">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931575_458852_273">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931575_813896_274"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1026833332078_269069_112">
+<UML:ModelElement.name>persistence</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_392557_275">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_676582_276">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_220385_277"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1026833332078_272449_82">
+<UML:ModelElement.name>applicableSubset</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_521560_278">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_459147_279">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_84668_280"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1026833332078_484763_28">
+<UML:ModelElement.name>persistent</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_593296_284">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_969463_285">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_904472_286"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1026833332078_63878_60">
+<UML:ModelElement.name>derived</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_812245_287">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_675611_288">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_595437_289"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027417805406_322767_396">
+<UML:ModelElement.name>accessibleBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_71664_290">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_7480_291">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_971438_292"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027439587953_437291_279">
+<UML:ModelElement.name>readableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_783970_293">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_42989_294">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_803511_295"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027439730703_552624_281">
+<UML:ModelElement.name>writableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_389104_296">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_415823_297">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_884923_298"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027599961734_376290_602">
+<UML:ModelElement.name>requirement</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_782016_299">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_128038_300">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_470755_301"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027677775703_598471_202">
+<UML:ModelElement.name>see</UML:ModelElement.name>
+<UML:TagDefinition.tagType>ModelElement</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_97006_302">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_411321_303">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_124990_304"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1027677775703_994675_203">
+<UML:ModelElement.name>throws</UML:ModelElement.name>
+<UML:TagDefinition.tagType>ModelClass</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_645952_305">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_677488_306">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_443413_307"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1029327925937_624063_321">
+<UML:ModelElement.name>code</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_40976_308">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931585_980524_309">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_325232_310"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:Stereotype xmi.id="paulb_1040372491223_329810_85">
+<UML:ModelElement.name>implementation</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1051083544098_790909_260"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_1821_175">
+<UML:ModelElement.name>parameter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_926527_312"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_410081_172">
+<UML:ModelElement.name>table</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_430723_168">
+<UML:ModelElement.name>getter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_514826_165">
+<UML:ModelElement.name>businessEntity</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Classifier</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931585_843702_320"/>
+</UML:ModelElement.comment>
+<UML:Stereotype.definedTag>
+<UML:TagDefinition xmi.id="paulb_1040373931585_891299_321">
+<UML:ModelElement.name>readableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931585_232262_322">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_680885_323">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_932280_324"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1040373931595_317517_325">
+<UML:ModelElement.name>writableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_645481_326">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_482365_327">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_312470_328"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1040373931595_103834_329">
+<UML:ModelElement.name>external</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_469093_330">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_142313_331">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_231139_332"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1040373931595_891584_333">
+<UML:ModelElement.name>readOnly</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Boolean</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_916210_334">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_783929_335">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_225702_336"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1040373931595_876005_337">
+<UML:ModelElement.name>creatableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_398532_338">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_488884_339">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_425670_340"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1040373931595_875287_341">
+<UML:ModelElement.name>deletableBy</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Actor</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_473164_342">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_990242_343">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_121632_344"/>
+</UML:ModelElement.comment>
+<UML:TagDefinition.owner>
+<UML:Stereotype xmi.idref="paulb_1040373931474_514826_165"/>
+</UML:TagDefinition.owner>
+</UML:TagDefinition>
+</UML:Stereotype.definedTag>
+</UML:Stereotype>
+<UML:TagDefinition xmi.id="paulb_1040373931474_597607_167">
+<UML:ModelElement.name>semantics</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1040373931595_101380_345">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1040373931595_990767_346">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_948444_347"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:Stereotype xmi.id="paulb_1040373931474_628893_173">
+<UML:ModelElement.name>schema</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_723859_164">
+<UML:ModelElement.name>unnamed1</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>TagDefinition</UML:Stereotype.baseClass>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_752780_171">
+<UML:ModelElement.name>exception</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1040373931595_757723_349"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_826549_177">
+<UML:ModelElement.name>setter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_889346_169">
+<UML:ModelElement.name>constructor</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Operation</UML:Stereotype.baseClass>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1040373931474_956783_176">
+<UML:ModelElement.name>database</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelPackage</UML:Stereotype.baseClass>
+<UML:ModelElement.comment/>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1041246112215_754511_84">
+<UML:ModelElement.name>valueObject</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1041262035143_202425_161"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1041262032890_622348_86">
+<UML:ModelElement.name>updateObject</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1041262035143_181685_162"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1041262032890_710953_85">
+<UML:ModelElement.name>descObject</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1041262035143_147703_163"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:Stereotype xmi.id="paulb_1041581877737_92198_164">
+<UML:ModelElement.name>propertySetter</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>Parameter</UML:Stereotype.baseClass>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1041791942605_552630_169"/>
+</UML:ModelElement.comment>
+</UML:Stereotype>
+<UML:TagDefinition xmi.id="paulb_1042493441819_334206_170">
+<UML:ModelElement.name>source</UML:ModelElement.name>
+<UML:TagDefinition.tagType>ModelElement</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1042493446576_802374_174">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1042493446576_275561_175">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1042493446586_643589_176"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1042829115872_113643_168">
+<UML:ModelElement.name>body</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1042829118245_412079_170">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1042829118245_396619_171">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1042829118245_928096_172"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1042829115872_856440_169">
+<UML:ModelElement.name>bodyLanguage</UML:ModelElement.name>
+<UML:TagDefinition.tagType>String</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1042829118245_719859_173">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1042829118245_708812_174">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1042829118245_447001_175"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:TagDefinition xmi.id="paulb_1046718136705_473667_193">
+<UML:ModelElement.name>linkedAttribute</UML:ModelElement.name>
+<UML:TagDefinition.tagType>Attribute</UML:TagDefinition.tagType>
+<UML:TagDefinition.multiplicity>
+<UML:Multiplicity xmi.id="paulb_1046718145077_246523_200">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="paulb_1046718145077_747240_201">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:TagDefinition.multiplicity>
+<UML:ModelElement.comment>
+<UML:Comment xmi.idref="paulb_1046718145077_907434_202"/>
+</UML:ModelElement.comment>
+</UML:TagDefinition>
+<UML:Package xmi.id="3a20142_1197725991078_113368_0">
+<UML:ModelElement.name>lv</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Actor xmi.id="3a20142_1197726001312_852092_1">
+<UML:ModelElement.name>baseActor</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+</UML:Actor>
+<UML:Package xmi.id="3a20142_1197732983250_881024_20">
+<UML:ModelElement.name>rtu</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Package xmi.id="3a20142_1197732988828_543108_39">
+<UML:ModelElement.name>vladkoto</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Package xmi.id="3a20142_1197733040531_143212_73">
+<UML:ModelElement.name>party</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Class xmi.id="3a20142_1197733047062_75639_74">
+<UML:ModelElement.name>Party</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197733266562_594836_341">
+<UML:ModelElement.name>name</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197733650843_520072_345">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197733650843_762968_346">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197771015156_403055_994"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197733266562_204128_342">
+<UML:ModelElement.name>pid</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197733650843_71315_348">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197733650843_18618_349">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197733650843_938211_350"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197770291843_598832_912">
+<UML:ModelElement.name>status</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197770317859_170349_924">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197770317859_769025_925">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770317859_342191_926"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197770291843_147401_914">
+<UML:ModelElement.name>startDate</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197804699078_640159_1193">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197804699078_188390_1194">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197804699078_585097_1195"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197770291843_221935_916">
+<UML:ModelElement.name>endDate</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197770317859_917612_928">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197770317859_860260_929">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770317859_957806_930"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Operation xmi.id="3a20142_1197811917765_667718_1986">
+<UML:ModelElement.name>sendNotification</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:BehavioralFeature.isQuery xmi.value="false"/>
+<UML:Operation.concurrency xmi.value="sequential"/>
+<UML:Operation.isRoot xmi.value="false"/>
+<UML:Operation.isLeaf xmi.value="false"/>
+<UML:Operation.isAbstract xmi.value="false"/>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Feature.owner>
+<UML:BehavioralFeature.parameter>
+<UML:Parameter xmi.id="3a20142_1197811916484_703323_1985">
+<UML:ModelElement.name>msg</UML:ModelElement.name>
+<UML:Parameter.kind xmi.value="inout"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:Parameter.type>
+</UML:Parameter>
+<UML:Parameter xmi.id="3a20142_1197811916484_722103_1984">
+<UML:Parameter.kind xmi.value="return"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:Parameter.type>
+</UML:Parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class xmi.id="3a20142_1197733054078_384414_75">
+<UML:ModelElement.name>BusinessParty</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:GeneralizableElement.generalization>
+<UML:Generalization xmi.idref="3a20142_1197733105656_377017_253"/>
+</UML:GeneralizableElement.generalization>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197739007843_468729_361">
+<UML:ModelElement.name>regnbr</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197739009843_970390_365">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197739009843_834960_366">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770670062_975311_993"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197739007843_211935_362">
+<UML:ModelElement.name>limitAmt</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="protected"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197739009843_796131_368">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197739009843_272673_369">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197739009843_410574_370"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480482_489056_173"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197769944250_922965_867">
+<UML:ModelElement.name>industryType</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197770317859_23779_931">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197770317859_980090_932">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770317859_979505_933"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197770636484_300364_988">
+<UML:ModelElement.name>registrationDate</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197770638171_466778_990">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197770638171_449132_991">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770638171_316032_992"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Operation xmi.id="3a20142_1197811860062_846631_1982">
+<UML:ModelElement.name>recalcExposure</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:BehavioralFeature.isQuery xmi.value="false"/>
+<UML:Operation.concurrency xmi.value="sequential"/>
+<UML:Operation.isRoot xmi.value="false"/>
+<UML:Operation.isLeaf xmi.value="false"/>
+<UML:Operation.isAbstract xmi.value="false"/>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Feature.owner>
+<UML:BehavioralFeature.parameter>
+<UML:Parameter xmi.id="3a20142_1197811860062_737576_1981">
+<UML:Parameter.kind xmi.value="return"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_383995_179"/>
+</UML:Parameter.type>
+</UML:Parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class xmi.id="3a20142_1197733065093_231502_76">
+<UML:ModelElement.name>Address</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197738458515_324049_352">
+<UML:ModelElement.name>country</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197738460500_948144_354">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197738460500_827403_355">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197738460500_510210_356"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733065093_231502_76"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197739635765_4106_711">
+<UML:ModelElement.name>city</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197739638171_684621_715">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197739638171_958120_716">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197739638171_968667_717"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733065093_231502_76"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197739635765_849107_712">
+<UML:ModelElement.name>addresLine_1</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197739638171_328690_718">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197739638171_315955_719">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770317875_416884_934"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733065093_231502_76"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197770106421_177911_909">
+<UML:ModelElement.name>addressLine_2</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197770317875_190146_935">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197770317875_270470_936">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197770317875_195406_937"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197733065093_231502_76"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Generalization xmi.id="3a20142_1197733105656_377017_253">
+<UML:Generalization.child>
+<UML:GeneralizableElement xmi.idref="3a20142_1197733054078_384414_75"/>
+</UML:Generalization.child>
+<UML:Generalization.parent>
+<UML:GeneralizableElement xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:Generalization.parent>
+</UML:Generalization>
+<UML:Association xmi.id="3a20142_1197733138796_995749_304">
+<UML:ModelElement.name>partyAddress</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Association.connection>
+<UML:AssociationEnd xmi.id="3a20142_1197733138796_286073_302">
+<UML:ModelElement.name>party</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="private"/>
+<UML:AssociationEnd.isNavigable xmi.value="false"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="composite"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197738539171_418253_357">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197738539171_508146_358">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197733138796_995749_304"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="3a20142_1197733138796_839255_303">
+<UML:ModelElement.name>address</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="private"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="none"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197738633875_331878_359">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197738633875_782661_360">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197733138796_995749_304"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197733065093_231502_76"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+</UML:Association.connection>
+</UML:Association>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Package xmi.id="3a20142_1197739383062_202537_389">
+<UML:ModelElement.name>account</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Class xmi.id="3a20142_1197739391703_342074_408">
+<UML:ModelElement.name>Account</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197739471609_810239_561">
+<UML:ModelElement.name>account_nbr</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197739565687_463032_688">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197739565687_567157_689">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806175500_870734_1446"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806030671_226748_1422">
+<UML:ModelElement.name>open_date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806032437_604856_1434">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806032437_115315_1435">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806175500_941750_1447"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806030671_634174_1424">
+<UML:ModelElement.name>maturity_date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806032437_36938_1437">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806032437_667412_1438">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806175500_325733_1448"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806030671_859165_1426">
+<UML:ModelElement.name>status</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806032437_475906_1440">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806032437_969125_1441">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806175500_903479_1449"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806030671_801979_1428">
+<UML:ModelElement.name>balanceAmt</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806032437_916109_1443">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806032437_984882_1444">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806175500_855787_1450"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_383995_179"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Operation xmi.id="3a20142_1197811984406_902417_1991">
+<UML:ModelElement.name>getSummary</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:BehavioralFeature.isQuery xmi.value="false"/>
+<UML:Operation.concurrency xmi.value="sequential"/>
+<UML:Operation.isRoot xmi.value="false"/>
+<UML:Operation.isLeaf xmi.value="false"/>
+<UML:Operation.isAbstract xmi.value="false"/>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:Feature.owner>
+<UML:BehavioralFeature.parameter>
+<UML:Parameter xmi.id="3a20142_1197811983328_961905_1989">
+<UML:ModelElement.name>startDate</UML:ModelElement.name>
+<UML:Parameter.kind xmi.value="inout"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:Parameter.type>
+</UML:Parameter>
+<UML:Parameter xmi.id="3a20142_1197811983328_478110_1990">
+<UML:ModelElement.name>endDate</UML:ModelElement.name>
+<UML:Parameter.kind xmi.value="inout"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:Parameter.type>
+</UML:Parameter>
+<UML:Parameter xmi.id="3a20142_1197811983328_631145_1988">
+<UML:Parameter.kind xmi.value="return"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:Parameter.type>
+</UML:Parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Association xmi.id="3a20142_1197805558218_189803_1376">
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Association.connection>
+<UML:AssociationEnd xmi.id="3a20142_1197805558218_862535_1374">
+<UML:ModelElement.name>party</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="aggregate"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197805896984_782331_1417">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197805896984_992338_1418">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197805558218_189803_1376"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197733047062_75639_74"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="3a20142_1197805558218_2547_1375">
+<UML:ModelElement.name>account</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="protected"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="none"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197805896984_561201_1419">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197805896984_873652_1420">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197805558218_189803_1376"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+</UML:Association.connection>
+</UML:Association>
+<UML:Class xmi.id="3a20142_1197806218609_449244_1478">
+<UML:ModelElement.name>Product</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197806256921_8084_1600">
+<UML:ModelElement.name>product_id</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806340125_764715_1606">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806340125_335838_1607">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806340140_967909_1608"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806218609_449244_1478"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480482_150524_171"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806294171_498780_1602">
+<UML:ModelElement.name>product_name</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806340140_706781_1609">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806340140_853868_1610">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806340140_582951_1611"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806218609_449244_1478"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806323140_510443_1604">
+<UML:ModelElement.name>product_start_date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806340140_787139_1612">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806340140_349173_1613">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806340140_233028_1614"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806218609_449244_1478"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806364531_682742_1615">
+<UML:ModelElement.name>product_end_date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806367187_169182_1617">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806367187_554634_1618">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806367187_861992_1619"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806218609_449244_1478"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Association xmi.id="3a20142_1197806527937_250364_1704">
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Association.connection>
+<UML:AssociationEnd xmi.id="3a20142_1197806527937_802958_1702">
+<UML:ModelElement.name>account</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="private"/>
+<UML:AssociationEnd.isNavigable xmi.value="false"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="none"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806604390_511228_1743">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806604390_295746_1744">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197806527937_250364_1704"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="3a20142_1197806527937_252326_1703">
+<UML:ModelElement.name>product</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="none"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806541484_585209_1741">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806541484_665647_1742">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197806527937_250364_1704"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197806218609_449244_1478"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+</UML:Association.connection>
+</UML:Association>
+<UML:Class xmi.id="3a20142_1197806795968_939542_1772">
+<UML:ModelElement.name>Transaction</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_328097_112"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197806878890_812195_1857">
+<UML:ModelElement.name>tx_id</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="protected"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806922359_330840_1904">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806922359_755900_1905">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197806922359_724666_1906"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806795968_939542_1772"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480482_150524_171"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806878890_932486_1859">
+<UML:ModelElement.name>amount</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806922359_759053_1907">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806922359_177274_1908">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197811466984_663176_1923"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806795968_939542_1772"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_383995_179"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806878890_372079_1861">
+<UML:ModelElement.name>type</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806922359_206860_1910">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806922359_372148_1911">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197811466984_309190_1924"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806795968_939542_1772"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197806993890_576783_1918">
+<UML:ModelElement.name>date</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806995531_532920_1920">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806995531_777411_1921">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197811466984_610823_1925"/>
+</UML:Attribute.initialValue>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="PBoocock_1027413958000_728068_69"/>
+</UML:ModelElement.stereotype>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197806795968_939542_1772"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480493_856806_177"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Association xmi.id="3a20142_1197806893343_253725_1867">
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Association.connection>
+<UML:AssociationEnd xmi.id="3a20142_1197806893343_234546_1865">
+<UML:ModelElement.name>account</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="protected"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="composite"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806922359_635699_1913">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806922359_532215_1914">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197806893343_253725_1867"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197739391703_342074_408"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="3a20142_1197806893343_989116_1866">
+<UML:ModelElement.name>tx</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="protected"/>
+<UML:AssociationEnd.isNavigable xmi.value="true"/>
+<UML:AssociationEnd.ordering xmi.value="unordered"/>
+<UML:AssociationEnd.aggregation xmi.value="none"/>
+<UML:AssociationEnd.targetScope xmi.value="instance"/>
+<UML:AssociationEnd.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197806922359_199358_1915">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197806922359_740523_1916">
+<UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:AssociationEnd.multiplicity>
+<UML:AssociationEnd.changeability xmi.value="changeable"/>
+<UML:AssociationEnd.association>
+<UML:Association xmi.idref="3a20142_1197806893343_253725_1867"/>
+</UML:AssociationEnd.association>
+<UML:AssociationEnd.participant>
+<UML:Classifier xmi.idref="3a20142_1197806795968_939542_1772"/>
+</UML:AssociationEnd.participant>
+</UML:AssociationEnd>
+</UML:Association.connection>
+</UML:Association>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Package xmi.id="3a20142_1197805107890_519763_1242">
+<UML:ModelElement.name>utils</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Namespace.ownedElement>
+<UML:Class xmi.id="3a20142_1197805113203_25839_1270">
+<UML:ModelElement.name>Utility</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Class.isActive xmi.value="false"/>
+<UML:ModelElement.stereotype>
+<UML:Stereotype xmi.idref="paulb_1024479480420_209604_85"/>
+</UML:ModelElement.stereotype>
+<UML:Classifier.feature>
+<UML:Attribute xmi.id="3a20142_1197811769250_640510_1941">
+<UML:ModelElement.name>CONST_1</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197811771421_305117_1943">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197811771421_421147_1944">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197811771421_277037_1945"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197805113203_25839_1270"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Attribute xmi.id="3a20142_1197811769250_668778_1942">
+<UML:ModelElement.name>CONST_2</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:StructuralFeature.multiplicity>
+<UML:Multiplicity xmi.id="3a20142_1197811771421_861719_1946">
+<UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="3a20142_1197811771421_948344_1947">
+<UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+<UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+</UML:MultiplicityRange>
+</UML:Multiplicity.range>
+</UML:Multiplicity>
+</UML:StructuralFeature.multiplicity>
+<UML:StructuralFeature.changeability xmi.value="changeable"/>
+<UML:StructuralFeature.targetScope xmi.value="instance"/>
+<UML:StructuralFeature.ordering xmi.value="unordered"/>
+<UML:Attribute.initialValue>
+<UML:Expression xmi.id="3a20142_1197811771421_455528_1948"/>
+</UML:Attribute.initialValue>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197805113203_25839_1270"/>
+</UML:Feature.owner>
+<UML:StructuralFeature.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:StructuralFeature.type>
+</UML:Attribute>
+<UML:Operation xmi.id="3a20142_1197812016453_329575_1994">
+<UML:ModelElement.name>helperOp_1</UML:ModelElement.name>
+<UML:ModelElement.visibility xmi.value="public"/>
+<UML:Feature.ownerScope xmi.value="instance"/>
+<UML:BehavioralFeature.isQuery xmi.value="false"/>
+<UML:Operation.concurrency xmi.value="sequential"/>
+<UML:Operation.isRoot xmi.value="false"/>
+<UML:Operation.isLeaf xmi.value="false"/>
+<UML:Operation.isAbstract xmi.value="false"/>
+<UML:Feature.owner>
+<UML:Classifier xmi.idref="3a20142_1197805113203_25839_1270"/>
+</UML:Feature.owner>
+<UML:BehavioralFeature.parameter>
+<UML:Parameter xmi.id="3a20142_1197812016453_200802_1993">
+<UML:Parameter.kind xmi.value="return"/>
+<UML:Parameter.type>
+<UML:Classifier xmi.idref="paulb_1024479480499_530543_178"/>
+</UML:Parameter.type>
+</UML:Parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+</UML:Namespace.ownedElement>
+</UML:Package>
+</UML:Namespace.ownedElement>
+</UML:Package>
+</UML:Namespace.ownedElement>
+</UML:Package>
+</UML:Namespace.ownedElement>
+</UML:Package>
+<UML:Stereotype xmi.id="3a20142_1200178343546_433954_32">
+<UML:ModelElement.name>ORMappedObject</UML:ModelElement.name>
+<UML:GeneralizableElement.isRoot xmi.value="false"/>
+<UML:GeneralizableElement.isLeaf xmi.value="false"/>
+<UML:GeneralizableElement.isAbstract xmi.value="false"/>
+<UML:Stereotype.baseClass>ModelClass</UML:Stereotype.baseClass>
+</UML:Stereotype>
+</UML:Namespace.ownedElement>
+</UML:Model>
+</XMI.content>
+</XMI>

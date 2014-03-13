@@ -2,7 +2,8 @@ package lv.rtu.ldp.ws;
 
 import javax.xml.ws.Endpoint;
 
-public class LdpWsEndpoint {
+public class LdpWsEndpoint
+{
 	
 	public static void main(String[] args) 
 	{

@@ -1,4 +1,4 @@
-rtu-ldp-course (old)
+rtu-ldp-course
 ==============
 
 Source code for LDP lectures
